@@ -22,17 +22,17 @@ configuration:
   yields-table-numerical-precision-yields: 2
 
 files: 
-  include: ['files.yml']
+  include: ['files_bb4l.yml']
 
 systematics:
   - norm_diboson: {type: const, value: 1.3, on: 'diboson'}
-  - norm_singletop: {type: const, value: 1.3, on: 'singletop|singletw'}
-  - norm_tt: {type: const, value: 1.042, on: 'ttbarsignal|ttbarbg'}
+  - norm_singletop: {type: const, value: 1.3, on: 'singletop|singletw|ttbartwinclusive'}
+  - norm_tt: {type: const, value: 1.042, on: 'ttbarsignal|ttbarbg|ttbartwinclusive"'}
   - norm_ttbarX: {type: const, value: 1.3, on: 'ttbarX'}
   - norm_wjets: {type: const, value: 1.3, on: 'wjets'}
-  - BFRAG: {type: shape, on: 'ttbarsignal|ttbarbg|singletw'}
-  - BFRAG_CENTRAL: {type: shape, on: 'ttbarsignal|ttbarbg|singletw'}
-  - BSEMILEP: {type: shape, on: 'ttbarsignal|ttbarbg|singletw'}
+  - BFRAG: {type: shape, on: 'ttbarsignal|ttbarbg|singletw|ttbartwinclusive'}
+  - BFRAG_CENTRAL: {type: shape, on: 'ttbarsignal|ttbarbg|singletw|ttbartwinclusive'}
+  - BSEMILEP: {type: shape, on: 'ttbarsignal|ttbarbg|singletw|ttbartwinclusive'}
   - BTAG_JES
   - BTAG_LJET_CORR
   - BTAG_LJET_UNCORR2018
@@ -73,14 +73,14 @@ systematics:
   - L1PREFIRING_MUON
   #- MASS: {type: shape, on: 'ttbarsignal|ttbarbg'}
   #- WIDTH_30: {type: shape, on: 'ttbarsignal|ttbarbg|singletw'}
-  - DS: {type: shape, on: 'singletw'}
-  - MATCH: {type: shape, on: 'ttbarsignal|ttbarbg'}
-  - MESCALE: {type: shape, on: 'ttbarsignal|ttbarbg'}
-  - MEFACSCALE: {type: shape, on: 'ttbarsignal|ttbarbg'}
-  - MEFACSCALE_ST: {type: shape, on: 'singletw'}
+  - DS: {type: shape, on: 'singletw|ttbartwinclusive'}
+  - MATCH: {type: shape, on: 'ttbarsignal|ttbarbg|ttbartwinclusive'}
+  - MESCALE: {type: shape, on: 'ttbarsignal|ttbarbg|ttbartwinclusive'}
+  - MEFACSCALE: {type: shape, on: 'ttbarsignal|ttbarbg|ttbartwinclusive'}
+  - MEFACSCALE_ST: {type: shape, on: 'singletw|ttbartwinclusive'}
   - MEFACSCALE_Z: {type: shape, on: 'dy'}
-  - MERENSCALE: {type: shape, on: 'ttbarsignal|ttbarbg'}
-  - MERENSCALE_ST: {type: shape, on: 'singletw'}
+  - MERENSCALE: {type: shape, on: 'ttbarsignal|ttbarbg|ttbartwinclusive'}
+  - MERENSCALE_ST: {type: shape, on: 'singletw|ttbartwinclusive'}
   - MERENSCALE_Z: {type: shape, on: 'dy'}
   - MUON_ID_STAT2018
   - MUON_ID_SYST
@@ -91,20 +91,20 @@ systematics:
   - MUON_SCALE_EWK
   - MUON_SCALE_STAT2018
   - MUON_SCALE_ZPT
-  - PDF_ALPHAS: {type: shape, on: 'ttbarsignal|ttbarbg|singletw'}
-  - PSSCALE_WEIGHT_14: {type: shape, on: 'ttbarsignal|ttbarbg'}
-  - PSSCALE_WEIGHT_3: {type: shape, on: 'ttbarsignal|ttbarbg'}
-  - PSSCALE_WEIGHT_ST_14: {type: shape, on: 'singletw'}
-  - PSSCALE_WEIGHT_ST_3: {type: shape, on: 'singletw'}
+  - PDF_ALPHAS: {type: shape, on: 'ttbarsignal|ttbarbg|singletw|ttbartwinclusive'}
+  - PSSCALE_WEIGHT_14: {type: shape, on: 'ttbarsignal|ttbarbg|ttbartwinclusive'}
+  - PSSCALE_WEIGHT_3: {type: shape, on: 'ttbarsignal|ttbarbg|ttbartwinclusive'}
+  - PSSCALE_WEIGHT_ST_14: {type: shape, on: 'singletw|ttbartwinclusive'}
+  - PSSCALE_WEIGHT_ST_3: {type: shape, on: 'singletw|ttbartwinclusive'}
   - PU
-  - TOP_PT: {type: shape, on: 'ttbarsignal|ttbarbg'}
+  - TOP_PT: {type: shape, on: 'ttbarsignal|ttbarbg|ttbartwinclusive'}
   - TRIG_EE2018_STAT
   - TRIG_EE2018_SYS
   - TRIG_EMU2018_STAT
   - TRIG_EMU2018_SYS
   - TRIG_MUMU2018_STAT
   - TRIG_MUMU2018_SYS
-  - UETUNE: {type: shape, on: 'ttbarsignal|ttbarbg|singletw'}
+  - UETUNE: {type: shape, on: 'ttbarsignal|ttbarbg|singletw|ttbartwinclusive'}
   - UNCLUSTERED2018
 
 plots:

@@ -1,0 +1,86 @@
+'data.root':
+  type: data
+  pretty-name: 'Data'
+  group: Gdata
+
+'ttbartwbb4linclusive.root':
+  type: mc
+  cross-section: 1.0
+  generated-events: 1.0
+  group: Gttll
+  scale: 0.1153
+  yields-group: '1t#bar{t}+tW(\ell\ell\textrm{ bb4l})'
+  order: 9
+
+'ttbarbgFromLjets.root':
+  type: mc
+  cross-section: 1.0
+  generated-events: 1.0
+  group: Gttbkg
+  scale: 0.1153
+  yields-group: '2t#bar{t}\;(\textrm{not dileptonic})'
+  order: 6
+
+'ttbarbgFromHadronic.root':
+  type: mc
+  cross-section: 1.0
+  generated-events: 1.0
+  group: Gttbkg
+  scale: 0.1153
+  yields-group: '2t#bar{t}\;(\textrm{not dileptonic})'
+  order: 5
+
+'singletop.root':
+  type: mc
+  cross-section: 1.0
+  generated-events: 1.0
+  group: Gst
+  scale: 0.1153
+  yields-group: '3Single top'
+  order: 4
+
+'singletop.root':
+  type: mc
+  cross-section: 1.0
+  generated-events: 1.0
+  group: Gother
+  scale: 0.1153
+  yields-group: '5Other'
+  order: 4
+
+'dy.root':
+  type: mc
+  cross-section: 1.0
+  generated-events: 1.0
+  group: Gdy
+  scale: 0.1153
+  yields-group: '4Z+jets'
+  order: 8
+
+'ttbarX.root':
+  type: mc
+  cross-section: 1.0
+  generated-events: 1.0
+  group: Gother
+  scale: 0.1153
+  yields-group: '5Other'
+  order: 3
+
+'diboson.root':
+  type: mc
+  cross-section: 1.0
+  generated-events: 1.0
+  group: Gother
+  scale: 0.1153
+  yields-group: '5Other'
+  order: 2
+
+'wjets.root':
+  type: mc
+  cross-section: 1.0
+  generated-events: 1.0
+  group: Gother
+  scale: 0.1153
+  yields-group: '5Other'
+  order: 1
+
