@@ -22,9 +22,11 @@ configuration:
   yields-table-numerical-precision-yields: 2
   generated-events-histogram: 'hcounter'
   generated-events-bin: 2
+  #syst-only: true
 
 files: 
   include: ['files.yml']
+  #include: ['files_fake.yml']
 
 systematics:
   - tt_xsec: {type: const, value: 1.044, on: 'TTTo'}
@@ -54,6 +56,7 @@ systematics:
   - jesFlavorPureBottom
   - jesRelativeBal
   - jesRelativeSample_2018
+  - metUnclust
   - btaghf
   - btaglf
   - btaghfstats1
@@ -68,6 +71,8 @@ systematics:
   - muid
   - muiso
   - mutrg
+  - muhighpt
+  - muonhighscale
   #- tauidjet
   - tauFFstat
   - tauFFsyst

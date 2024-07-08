@@ -28,7 +28,7 @@ GWJets:
 
 GSingleT:
   fill-color: '#990099'
-  legend: 'ST'
+  legend: 'Single t'
 
 GVV:
   fill-color: '#00cccc'
@@ -38,53 +38,57 @@ GQCD:
   fill-color: '#d0cfd4'
   legend: 'QCD'
 
+GFakeTau:
+  fill-color: '#ff9933'
+  legend: 'Tau MisID'
+
 GLFVSTcs:
   line-color: '#99CC66'
-  legend: 'STLFVc_s'
+  legend: 'ST LFV^{tc#mu#tau}_{Scalar}'
 
 GLFVSTcv:
   line-color: '#99CC66'
-  legend: 'STLFVc_v'
+  legend: 'ST LFV^{tc#mu#tau}_{Vector}'
 
 GLFVSTct:
   line-color: '#99CC66'
-  legend: 'STLFVc_t'
+  legend: 'ST LFV^{tc#mu#tau}_{Tensor}'
 
 GLFVSTus:
   line-color: '#6B8551'
-  legend: 'STLFVu_s'
+  legend: 'ST LFV^{tu#mu#tau}_{Scalar}'
 
 GLFVSTuv:
   line-color: '#6B8551'
-  legend: 'STLFVu_v'
+  legend: 'ST LFV^{tu#mu#tau}_{Vector}'
 
 GLFVSTut:
   line-color: '#6B8551'
-  legend: 'STLFVu_t'
+  legend: 'ST LFV^{tu#mu#tau}_{Tensor}'
 
 GLFVTTcs:
   line-color: '#908DCC'
-  legend: 'TTLFVc_s'
+  legend: 'TT LFV^{tc#mu#tau}_{Scalar}'
 
 GLFVTTcv:
   line-color: '#908DCC'
-  legend: 'TTLFVc_v'
+  legend: 'TT LFV^{tc#mu#tau}_{Vector}'
 
 GLFVTTct:
   line-color: '#908DCC'
-  legend: 'TTLFVc_t'
+  legend: 'TT LFV^{tc#mu#tau}_{Tensor}'
 
 GLFVTTus:
   line-color: '#4F4D80'
-  legend: 'TTLFVu_s'
+  legend: 'TT LFV^{tu#mu#tau}_{Scalar}'
 
 GLFVTTuv:
   line-color: '#4F4D80'
-  legend: 'TTLFVu_v'
+  legend: 'TT LFV^{tu#mu#tau}_{Vector}'
 
 GLFVTTut:
   line-color: '#4F4D80'
-  legend: 'TTLFVu_t'
+  legend: 'TT LFV^{tu#mu#tau}_{Tensor}'
 
 #############
 #  postfit  #
@@ -92,34 +96,35 @@ GLFVTTut:
 
 Gtt:
   fill-color: '#ee4444'
-  legend: 'TT'
+  legend: 't#bar{t}'
 
 # resue ST colors
 GLFVcs:
   line-color: '#99CC66'
-  legend: 'LFVc_s'
+  legend: 'LFV^{tc#mu#tau}_{Scalar}'
 
 GLFVcv:
   line-color: '#99CC66'
-  legend: 'LFVc_v'
+  legend: 'LFV^{tc#mu#tau}_{Vector}'
 
 GLFVct:
   line-color: '#99CC66'
-  legend: 'LFVc_t'
+  legend: 'LFV^{tc#mu#tau}_{Tensor}'
 
 GLFVus:
   line-color: '#6B8551'
-  legend: 'LFVu_s'
+  legend: 'LFV^{tu#mu#tau}_{Scalar}'
 
 GLFVuv:
   line-color: '#6B8551'
-  legend: 'LFVu_v'
+  legend: 'LFV^{tu#mu#tau}_{Vector}'
 
 GLFVut:
   line-color: '#6B8551'
-  legend: 'LFVu_t'
+  legend: 'LFV^{tu#mu#tau}_{Tensor}'
 
 #As we never show QCD, reuse color
+# -> use gray for misID, WJet color for other if needed
 Gother:
   fill-color: '#d0cfd4'
   legend: 'Other'

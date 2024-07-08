@@ -1,24 +1,3 @@
-'hist_ST_LFV_TCMuTau_Scalar.root':
-  type: signal
-  pretty-name: 'LFVSTcs'
-  cross-section: 0.007375
-  group: GLFVSTcs
-  order: 1
-
-'hist_ST_LFV_TCMuTau_Vector.root':
-  type: signal
-  pretty-name: 'LFVSTcv'
-  cross-section: 0.03673
-  group: GLFVSTcv
-  order: 1
-
-'hist_ST_LFV_TCMuTau_Tensor.root':
-  type: signal
-  pretty-name: 'LFVSTct'
-  cross-section: 0.177
-  group: GLFVSTct
-  order: 1
-
 'hist_ST_LFV_TUMuTau_Scalar.root':
   type: signal
   pretty-name: 'LFVSTus'
@@ -40,25 +19,25 @@
   group: GLFVSTut
   order: 1
 
-'hist_TT_LFV_TCMuTau_Scalar.root':
+'hist_ST_LFV_TCMuTau_Scalar.root':
   type: signal
-  pretty-name: 'LFVTTcs'
-  cross-section: 0.00269
-  group: GLFVTTcs
+  pretty-name: 'LFVSTcs'
+  cross-section: 0.007375
+  group: GLFVSTcs
   order: 1
 
-'hist_TT_LFV_TCMuTau_Vector.root':
+'hist_ST_LFV_TCMuTau_Vector.root':
   type: signal
-  pretty-name: 'LFVTTcv'
-  cross-section: 0.0215
-  group: GLFVTTcv
-  order: 3
+  pretty-name: 'LFVSTcv'
+  cross-section: 0.03673
+  group: GLFVSTcv
+  order: 1
 
-'hist_TT_LFV_TCMuTau_Tensor.root':
+'hist_ST_LFV_TCMuTau_Tensor.root':
   type: signal
-  pretty-name: 'LFVTTct'
-  cross-section: 0.1290
-  group: GLFVTTct
+  pretty-name: 'LFVSTct'
+  cross-section: 0.177
+  group: GLFVSTct
   order: 1
 
 'hist_TT_LFV_TUMuTau_Scalar.root':
@@ -82,6 +61,27 @@
   group: GLFVTTut
   order: 1
 
+'hist_TT_LFV_TCMuTau_Scalar.root':
+  type: signal
+  pretty-name: 'LFVTTcs'
+  cross-section: 0.00269
+  group: GLFVTTcs
+  order: 1
+
+'hist_TT_LFV_TCMuTau_Vector.root':
+  type: signal
+  pretty-name: 'LFVTTcv'
+  cross-section: 0.0215
+  group: GLFVTTcv
+  order: 3
+
+'hist_TT_LFV_TCMuTau_Tensor.root':
+  type: signal
+  pretty-name: 'LFVTTct'
+  cross-section: 0.1290
+  group: GLFVTTct
+  order: 1
+
 'hist_SingleMuon.root':
   type: data
   pretty-name: 'Data'
@@ -103,69 +103,13 @@
   yields-group: '1\ttbar LL'
   order: 7
 
-'hist_TTToHadronic.root':
-  type: mc
-  pretty-name: 'TTToHadronic'
-  cross-section: 379.05
-  group: Gttjj
-  yields-group: '3\ttbar Had'
-  order: 8
-
-'hist_ttHTobb.root':
-  type: mc
-  pretty-name: 'ttHTobb'
-  cross-section: 0.2934
-  group: GttV
-  yields-group: '7tt+X'
-  order: 9
-
-'hist_ttHToNonbb.root':
-  type: mc
-  pretty-name: 'ttHToNonbb'
-  cross-section: 0.2151
-  group: GttV
-  yields-group: '7tt+X'
-  order: 10
-
-'hist_TTWJetsToLNu.root':
-  type: mc
-  pretty-name: 'TTWJetsToLNu'
-  cross-section: 0.2163
-  group: GttV
-  yields-group: '7tt+X'
-  order: 11
-
-'hist_TTWJetsToQQ.root':
-  type: mc
-  pretty-name: 'TTWJetsToQQ'
-  cross-section: 0.4432
-  group: GttV
-  yields-group: '7tt+X'
-  order: 12
-
-'hist_TTZToLLNuNu.root':
-  type: mc
-  pretty-name: 'TTZToLLNuNu'
-  cross-section: 0.2439
-  group: GttV
-  yields-group: '7tt+X'
-  order: 13
-
-'hist_TTZToQQ.root':
-  type: mc
-  pretty-name: 'TTZToQQ'
-  cross-section: 0.5113
-  group: GttV
-  yields-group: '7tt+X'
-  order: 14
-
 'hist_ST_s_4f_lepton.root':
   type: mc
   pretty-name: 'SingleTops'
   cross-section: 2.23
   group: GSingleT
   yields-group: '5Single Top'
-  order: 15
+  order: 8
 
 'hist_ST_t_top_4f.root':
   type: mc
@@ -173,7 +117,7 @@
   cross-section: 134.2
   group: GSingleT
   yields-group: '5Single Top'
-  order: 16
+  order: 9
 
 'hist_ST_t_antitop_4f.root':
   type: mc
@@ -181,7 +125,7 @@
   cross-section: 80.0
   group: GSingleT
   yields-group: '5Single Top'
-  order: 17
+  order: 10
 
 'hist_ST_tW_top_5f.root':
   type: mc
@@ -189,7 +133,7 @@
   cross-section: 39.65
   group: GSingleT
   yields-group: '5Single Top'
-  order: 18
+  order: 11
 
 'hist_ST_tW_antitop_5f.root':
   type: mc
@@ -197,6 +141,62 @@
   cross-section: 39.65
   group: GSingleT
   yields-group: '5Single Top'
+  order: 12
+
+'hist_TTToHadronic.root':
+  type: mc
+  pretty-name: 'TTToHadronic'
+  cross-section: 379.05
+  group: Gttjj
+  yields-group: '3\ttbar Had'
+  order: 13
+
+'hist_ttHTobb.root':
+  type: mc
+  pretty-name: 'ttHTobb'
+  cross-section: 0.2934
+  group: GttV
+  yields-group: '7tt+X'
+  order: 14
+
+'hist_ttHToNonbb.root':
+  type: mc
+  pretty-name: 'ttHToNonbb'
+  cross-section: 0.2151
+  group: GttV
+  yields-group: '7tt+X'
+  order: 15
+
+'hist_TTWJetsToLNu.root':
+  type: mc
+  pretty-name: 'TTWJetsToLNu'
+  cross-section: 0.2163
+  group: GttV
+  yields-group: '7tt+X'
+  order: 16
+
+'hist_TTWJetsToQQ.root':
+  type: mc
+  pretty-name: 'TTWJetsToQQ'
+  cross-section: 0.4432
+  group: GttV
+  yields-group: '7tt+X'
+  order: 17
+
+'hist_TTZToLLNuNu.root':
+  type: mc
+  pretty-name: 'TTZToLLNuNu'
+  cross-section: 0.2439
+  group: GttV
+  yields-group: '7tt+X'
+  order: 18
+
+'hist_TTZToQQ.root':
+  type: mc
+  pretty-name: 'TTZToQQ'
+  cross-section: 0.5113
+  group: GttV
+  yields-group: '7tt+X'
   order: 19
 
 'hist_WW.root':

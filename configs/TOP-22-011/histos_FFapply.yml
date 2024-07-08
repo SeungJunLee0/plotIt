@@ -125,6 +125,7 @@
 
 #reco
 'h_chi2_S5':
+  x-axis-range: [0, 950]
   save-extensions: ['pdf', 'png']
 
 'h_chi2_SMTop_mass_S5':

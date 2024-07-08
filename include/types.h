@@ -479,7 +479,7 @@ namespace plotIt {
     int16_t blinded_range_fill_color = 42;
     int16_t blinded_range_fill_style = 1001;
 
-    std::string uncertainty_label = "Unc.";
+    std::string uncertainty_label = "Stat+syst";
     std::map<Type, std::vector<LegendEntry>> static_legend_entries;
 
     std::string book_keeping_file_name;

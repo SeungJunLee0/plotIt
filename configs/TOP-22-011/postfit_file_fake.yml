@@ -1,0 +1,92 @@
+'data_obs_postfit_histos.root':
+  type: data
+  pretty-name: 'Data'
+  group: GData
+
+'st_lfv_cs_postfit_histos.root':
+  type: signal
+  pretty-name: 'LFVc_s'
+  cross-section: 1
+  generated-events: 1
+  group: GLFVcs
+  order: 0
+
+'st_lfv_cv_postfit_histos.root':
+  type: signal
+  pretty-name: 'LFVc_v'
+  cross-section: 1
+  generated-events: 1
+  group: GLFVcv
+  order: 0
+
+'st_lfv_ct_postfit_histos.root':
+  type: signal
+  pretty-name: 'LFVc_t'
+  cross-section: 1
+  generated-events: 1
+  group: GLFVct
+  order: 0
+
+'st_lfv_us_postfit_histos.root':
+  type: signal
+  pretty-name: 'LFVu_s'
+  cross-section: 1
+  generated-events: 1
+  group: GLFVus
+  order: 0
+
+'st_lfv_uv_postfit_histos.root':
+  type: signal
+  pretty-name: 'LFVu_v'
+  cross-section: 1
+  generated-events: 1
+  group: GLFVuv
+  order: 0
+
+'st_lfv_ut_postfit_histos.root':
+  type: signal
+  pretty-name: 'LFVu_t'
+  cross-section: 1
+  generated-events: 1
+  group: GLFVut
+  order: 0
+
+'tt_postfit_histos.root':
+  type: mc
+  pretty-name: 'tt'
+  cross-section: 1
+  generated-events: 1
+  group: Gtt
+  order: 1
+
+'singleTop_postfit_histos.root':
+  type: mc
+  pretty-name: 'Other'
+  cross-section: 1
+  generated-events: 1
+  group: GSingleT
+  order: 2
+
+'other_postfit_histos.root':
+  type: mc
+  pretty-name: 'Other'
+  cross-section: 1
+  generated-events: 1
+  group: Gother
+  order: 3
+
+'misID_postfit_histos.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 1
+  generated-events: 1
+  group: GFakeTau
+  order: 4
+
+'misID_tt_postfit_histos.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 1
+  generated-events: 1
+  group: GFakeTau
+  order: 5

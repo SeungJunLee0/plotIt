@@ -24,6 +24,7 @@ groups:
 
 files:
   include: ['postfit_file.yml']
+  #include: ['postfit_file_fake.yml']
 
 systematics:
   - total: {type: shape, on: 'tt_postfit_histos.root'}

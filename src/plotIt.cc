@@ -1602,8 +1602,8 @@ namespace plotIt {
             }
 
             // Space
-            if (!mc_processes.empty() || has_data)
-                latexString << R"( & \\)" << std::endl;
+            //if (!mc_processes.empty() || has_data)
+            //    latexString << R"( & \\)" << std::endl;
         }
 
         // Then MC samples
@@ -1632,9 +1632,9 @@ namespace plotIt {
             }
 
             // Space
-            latexString << R"( & \\ \hline)" << std::endl;
-            //latexString << R"(Total {\scriptsize $\pm$ (stat.) $\pm$ (syst.)} & )";
-            latexString << R"(Total {\scriptsize $\pm$ (stat.)} & )";
+            //latexString << R"( & \\ \hline)" << std::endl;
+            //latexString << R"(Total {\scriptsize $\pm$ (stat) $\pm$ (syst)} & )";
+            latexString << R"(Total {\scriptsize $\pm$ (stat)} & )";
 
             for (const auto& c: categories) {
                 //latexString << "$" << mc_total[c.second] << R"({\scriptstyle\ \pm\ )" << std::sqrt(mc_total_sqerrs[c.second]) << R"(\ \pm\ )" << std::sqrt(total_systematics_squared[c.second][MC]) << "}$ & ";
@@ -1648,7 +1648,7 @@ namespace plotIt {
         // Print data
         if (has_data) {
             latexString << R"(\hline)" << std::endl;
-            //latexString << R"(Data {\scriptsize $\pm$ (stat.)} & )";
+            //latexString << R"(Data {\scriptsize $\pm$ (stat)} & )";
             latexString << R"(Data & )";
             latexString << std::setprecision(0);
 
@@ -1669,7 +1669,7 @@ namespace plotIt {
         // And finally data / MC
         if (!mc_processes.empty() && has_data) {
             latexString << R"(\hline)" << std::endl;
-            latexString << R"(Data / prediction & )";
+            latexString << R"(Data / Background prediction & )";
             latexString << std::setprecision(m_config.yields_table_num_prec_ratio);
 
             for (const auto& c: categories) {

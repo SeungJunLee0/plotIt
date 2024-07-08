@@ -4,7 +4,7 @@ configuration:
   luminosity-label: '138 fb^{-1} (13 TeV)'
   experiment: " CMS"
   experiment-label-paper: true
-  extra-label: "Preliminary"
+  extra-label: " Preliminary"
   root: './postfit_shapes_TOP_LFV_forPlotIt'
   luminosity: 1
   luminosity-error: 0
@@ -24,6 +24,7 @@ groups:
 
 files:
   include: ['postfit_file.yml']
+  #include: ['postfit_file_fake.yml']
 
 systematics:
   - total: {type: shape, on: 'tt_postfit_histos.root'}
@@ -32,5 +33,5 @@ plots:
   include: ['postfit_histos_dnn.yml']
 
 legend:
-  position: [0.35, 0.78, 0.94, 0.88]
-  columns: 5
+  position: [0.36, 0.75, 0.94, 0.87]
+  columns: 4

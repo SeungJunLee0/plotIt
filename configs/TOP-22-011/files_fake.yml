@@ -1,0 +1,857 @@
+'hist_ST_LFV_TCMuTau_Scalar.root':
+  type: signal
+  pretty-name: 'LFVSTcs'
+  cross-section: 0.007375
+  group: GLFVSTcs
+  order: 1
+
+'hist_ST_LFV_TCMuTau_Vector.root':
+  type: signal
+  pretty-name: 'LFVSTcv'
+  cross-section: 0.03673
+  group: GLFVSTcv
+  order: 1
+
+'hist_ST_LFV_TCMuTau_Tensor.root':
+  type: signal
+  pretty-name: 'LFVSTct'
+  cross-section: 0.177
+  group: GLFVSTct
+  order: 1
+
+'hist_ST_LFV_TUMuTau_Scalar.root':
+  type: signal
+  pretty-name: 'LFVSTus'
+  cross-section: 0.08494
+  group: GLFVSTus
+  order: 1
+
+'hist_ST_LFV_TUMuTau_Vector.root':
+  type: signal
+  pretty-name: 'LFVSTuv'
+  cross-section: 0.3924
+  group: GLFVSTuv
+  order: 2
+
+'hist_ST_LFV_TUMuTau_Tensor.root':
+  type: signal
+  pretty-name: 'LFVSTut'
+  cross-section: 1.781
+  group: GLFVSTut
+  order: 1
+
+'hist_TT_LFV_TCMuTau_Scalar.root':
+  type: signal
+  pretty-name: 'LFVTTcs'
+  cross-section: 0.00269
+  group: GLFVTTcs
+  order: 1
+
+'hist_TT_LFV_TCMuTau_Vector.root':
+  type: signal
+  pretty-name: 'LFVTTcv'
+  cross-section: 0.0215
+  group: GLFVTTcv
+  order: 3
+
+'hist_TT_LFV_TCMuTau_Tensor.root':
+  type: signal
+  pretty-name: 'LFVTTct'
+  cross-section: 0.1290
+  group: GLFVTTct
+  order: 1
+
+'hist_TT_LFV_TUMuTau_Scalar.root':
+  type: signal
+  pretty-name: 'LFVTTus'
+  cross-section: 0.00269
+  group: GLFVTTus
+  order: 1
+
+'hist_TT_LFV_TUMuTau_Vector.root':
+  type: signal
+  pretty-name: 'LFVTTuv'
+  cross-section: 0.0215
+  group: GLFVTTuv
+  order: 4
+
+'hist_TT_LFV_TUMuTau_Tensor.root':
+  type: signal
+  pretty-name: 'LFVTTut'
+  cross-section: 0.1290
+  group: GLFVTTut
+  order: 1
+
+'hist_SingleMuon.root':
+  type: data
+  pretty-name: 'Data'
+  group: GData
+
+'hist_TTToSemiLeptonic.root':
+  type: mc
+  pretty-name: 'TTToSemiLeptonic'
+  cross-section: 366.34
+  group: Gttlj
+  yields-group: '2\ttbar LJ'
+  order: 6
+
+'hist_TTTo2L2Nu.root':
+  type: mc
+  pretty-name: 'TTTo2L2Nu'
+  cross-section: 88.51
+  group: Gttll
+  yields-group: '1\ttbar LL'
+  order: 7
+
+'hist_TTToHadronic.root':
+  type: mc
+  pretty-name: 'TTToHadronic'
+  cross-section: 379.05
+  group: Gttjj
+  yields-group: '3\ttbar Had'
+  order: 8
+
+'hist_ttHTobb.root':
+  type: mc
+  pretty-name: 'ttHTobb'
+  cross-section: 0.2934
+  group: GttV
+  yields-group: '7tt+X'
+  order: 9
+
+'hist_ttHToNonbb.root':
+  type: mc
+  pretty-name: 'ttHToNonbb'
+  cross-section: 0.2151
+  group: GttV
+  yields-group: '7tt+X'
+  order: 10
+
+'hist_TTWJetsToLNu.root':
+  type: mc
+  pretty-name: 'TTWJetsToLNu'
+  cross-section: 0.2163
+  group: GttV
+  yields-group: '7tt+X'
+  order: 11
+
+'hist_TTWJetsToQQ.root':
+  type: mc
+  pretty-name: 'TTWJetsToQQ'
+  cross-section: 0.4432
+  group: GttV
+  yields-group: '7tt+X'
+  order: 12
+
+'hist_TTZToLLNuNu.root':
+  type: mc
+  pretty-name: 'TTZToLLNuNu'
+  cross-section: 0.2439
+  group: GttV
+  yields-group: '7tt+X'
+  order: 13
+
+'hist_TTZToQQ.root':
+  type: mc
+  pretty-name: 'TTZToQQ'
+  cross-section: 0.5113
+  group: GttV
+  yields-group: '7tt+X'
+  order: 14
+
+'hist_ST_s_4f_lepton.root':
+  type: mc
+  pretty-name: 'SingleTops'
+  cross-section: 2.23
+  group: GSingleT
+  yields-group: '5Single Top'
+  order: 15
+
+'hist_ST_t_top_4f.root':
+  type: mc
+  pretty-name: 'SingleTopt'
+  cross-section: 134.2
+  group: GSingleT
+  yields-group: '5Single Top'
+  order: 16
+
+'hist_ST_t_antitop_4f.root':
+  type: mc
+  pretty-name: 'SingleTbart'
+  cross-section: 80.0
+  group: GSingleT
+  yields-group: '5Single Top'
+  order: 17
+
+'hist_ST_tW_top_5f.root':
+  type: mc
+  pretty-name: 'SingleToptW'
+  cross-section: 39.65
+  group: GSingleT
+  yields-group: '5Single Top'
+  order: 18
+
+'hist_ST_tW_antitop_5f.root':
+  type: mc
+  pretty-name: 'SingleTbartW'
+  cross-section: 39.65
+  group: GSingleT
+  yields-group: '5Single Top'
+  order: 19
+
+'hist_WW.root':
+  type: mc
+  pretty-name: 'WW'
+  cross-section: 118.7
+  group: GVV
+  yields-group: '8VV'
+  order: 20
+
+'hist_WZ.root':
+  type: mc
+  pretty-name: 'WZ'
+  cross-section: 46.75
+  group: GVV
+  yields-group: '8VV'
+  order: 21
+
+'hist_ZZ.root':
+  type: mc
+  pretty-name: 'ZZ'
+  cross-section: 16.91
+  group: GVV
+  yields-group: '8VV'
+  order: 22
+
+'hist_DYJetsToLL_M10to50.root':
+  type: mc
+  pretty-name: 'DYJets10to50'
+  cross-section: 18610
+  group: GZJets
+  yields-group: '4Z+Jets'
+  order: 23
+
+'hist_DYJetsToLL_M50_amc.root':
+  type: mc
+  pretty-name: 'DYJets'
+  cross-section: 6077.22
+  group: GZJets
+  yields-group: '4Z+Jets'
+  order: 24
+
+'hist_DYJetsToLL_M50_HT70to100.root':
+  type: mc
+  pretty-name: 'DYJets'
+  cross-section: 158.2 #140.0 * 1.13
+  group: GZJets
+  yields-group: '4Z+Jets'
+  order: 24
+
+'hist_DYJetsToLL_M50_HT100to200.root':
+  type: mc
+  pretty-name: 'DYJets'
+  cross-section: 157.296 #139.2 * 1.13
+  group: GZJets
+  yields-group: '4Z+Jets'
+  order: 24
+
+'hist_DYJetsToLL_M50_HT200to400.root':
+  type: mc
+  pretty-name: 'DYJets'
+  cross-section: 43.392 #38.4 * 1.13
+  group: GZJets
+  yields-group: '4Z+Jets'
+  order: 24
+
+'hist_DYJetsToLL_M50_HT400to600.root':
+  type: mc
+  pretty-name: 'DYJets'
+  cross-section: 5.847 #5.174 * 1.13
+  group: GZJets
+  yields-group: '4Z+Jets'
+  order: 24
+
+'hist_DYJetsToLL_M50_HT600to800.root':
+  type: mc
+  pretty-name: 'DYJets'
+  cross-section: 1.422 #1.258 * 1.13
+  group: GZJets
+  yields-group: '4Z+Jets'
+  order: 24
+
+'hist_DYJetsToLL_M50_HT800to1200.root':
+  type: mc
+  pretty-name: 'DYJets'
+  cross-section: 0.6326 #0.5598 * 1.13
+  group: GZJets
+  yields-group: '4Z+Jets'
+  order: 24
+
+'hist_DYJetsToLL_M50_HT1200to2500.root':
+  type: mc
+  pretty-name: 'DYJets'
+  cross-section: 0.1475 #0.1305 * 1.13
+  group: GZJets
+  yields-group: '4Z+Jets'
+  order: 24
+
+'hist_DYJetsToLL_M50_HT2500toInf.root':
+  type: mc
+  pretty-name: 'DYJets'
+  cross-section: 0.003387 #0.002997 * 1.13
+  group: GZJets
+  yields-group: '4Z+Jets'
+  order: 24
+
+#'hist_WJetsToLNu_incl.root':
+#  type: mc
+#  pretty-name: 'WJetsToLNu_incl'
+#  cross-section: 67350.0
+#  group: GWJets
+#  yields-group: '6W+Jets'
+#  order: 25
+
+'hist_WJetsToLNu_HT0To100.root':
+  type: mc
+  pretty-name: 'WJetsToLNu_HT0To100'
+  cross-section: 65396.85 # 67350.0 * 0.972
+  scale: 1.0288 # 1/0.972 for generator-event scale, anyway cancels out
+  group: GWJets
+  yields-group: '6W+Jets'
+  order: 25
+  # 65396.85 ~ 65282.37803 = 67350.0 - 1568.7 - 419 - 56.52 - 15.05 - 6.8707 - 1.4488 - 0.03247
+  # generated-events: 72594985 # 74686199 * 0.972 (2016pre)
+  # generated-events: 78691397 # 80958227 * 0.972 (2016post)
+  # generated-events: 76114585 # 78307186 * 0.972 (2017)
+  # generated-events: 78781833 # 81051269 * 0.972 (htcut, 2018)
+
+'hist_WJetsToLNu_HT100To200.root':
+  type: mc
+  pretty-name: 'WJetsToLNu_HT100To200'
+  cross-section: 1568.7 # 1256.0 * 1.249
+  group: GWJets
+  yields-group: '6W+Jets'
+  order: 26
+
+'hist_WJetsToLNu_HT200To400.root':
+  type: mc
+  pretty-name: 'WJetsToLNu_HT200To400'
+  cross-section: 419 # 335.5 * 1.249
+  group: GWJets
+  yields-group: '6W+Jets'
+  order: 27
+
+'hist_WJetsToLNu_HT400To600.root':
+  type: mc
+  pretty-name: 'WJetsToLNu_HT400To600'
+  cross-section: 56.52 # 45.25 * 1.249
+  group: GWJets
+  yields-group: '6W+Jets'
+  order: 28
+
+'hist_WJetsToLNu_HT600To800.root':
+  type: mc
+  pretty-name: 'WJetsToLNu_HT600To800'
+  cross-section: 15.05 # 12.05 * 1.249
+  group: GWJets
+  yields-group: '6W+Jets'
+  order: 29
+
+'hist_WJetsToLNu_HT800To1200.root':
+  type: mc
+  pretty-name: 'WJetsToLNu_HT800To1200'
+  cross-section: 6.8707 # 5.501 * 1.249
+  group: GWJets
+  yields-group: '6W+Jets'
+  order: 30
+
+'hist_WJetsToLNu_HT1200To2500.root':
+  type: mc
+  pretty-name: 'WJetsToLNu_HT1200To2500'
+  cross-section: 1.4488 # 1.16 * 1.249
+  group: GWJets
+  yields-group: '6W+Jets'
+  order: 31
+
+'hist_WJetsToLNu_HT2500ToInf.root':
+  type: mc
+  pretty-name: 'WJetsToLNu_HT2500ToInf'
+  cross-section: 0.03247 # 0.026 * 1.249
+  group: GWJets
+  yields-group: '6W+Jets'
+  order: 32
+
+#'hist_QCD_Pt15To20_MuEnriched.root':
+#  type: mc
+#  pretty-name: 'QCD'
+#  cross-section: 2797000.0
+#  group: GQCD
+#  yields-group: '9QCD'
+#  order: 33
+
+'hist_QCD_Pt20To30_MuEnriched.root':
+  type: mc
+  pretty-name: 'QCD'
+  cross-section: 2518000.0
+  group: GQCD
+  yields-group: '9QCD'
+  order: 34
+
+'hist_QCD_Pt30To50_MuEnriched.root':
+  type: mc
+  pretty-name: 'QCD'
+  cross-section: 1361000.0
+  group: GQCD
+  yields-group: '9QCD'
+  order: 35
+
+'hist_QCD_Pt50To80_MuEnriched.root':
+  type: mc
+  pretty-name: 'QCD'
+  cross-section: 377800.0
+  group: GQCD
+  yields-group: '9QCD'
+  order: 36
+
+'hist_QCD_Pt80To120_MuEnriched.root':
+  type: mc
+  pretty-name: 'QCD'
+  cross-section: 88620.0
+  group: GQCD
+  yields-group: '9QCD'
+  order: 37
+
+'hist_QCD_Pt120To170_MuEnriched.root':
+  type: mc
+  pretty-name: 'QCD'
+  cross-section: 21070.0
+  group: GQCD
+  yields-group: '9QCD'
+  order: 38
+
+'hist_QCD_Pt170To300_MuEnriched.root':
+  type: mc
+  pretty-name: 'QCD'
+  cross-section: 7019.0
+  group: GQCD
+  yields-group: '9QCD'
+  order: 39
+
+'hist_QCD_Pt300To470_MuEnriched.root':
+  type: mc
+  pretty-name: 'QCD'
+  cross-section: 622.4
+  group: GQCD
+  yields-group: '9QCD'
+  order: 40
+
+'hist_QCD_Pt470To600_MuEnriched.root':
+  type: mc
+  pretty-name: 'QCD'
+  cross-section: 58.86
+  group: GQCD
+  yields-group: '9QCD'
+  order: 41
+
+'hist_QCD_Pt600To800_MuEnriched.root':
+  type: mc
+  pretty-name: 'QCD'
+  cross-section: 18.22
+  group: GQCD
+  yields-group: '9QCD'
+  order: 42
+
+'hist_QCD_Pt800To1000_MuEnriched.root':
+  type: mc
+  pretty-name: 'QCD'
+  cross-section: 3.25
+  group: GQCD
+  yields-group: '9QCD'
+  order: 43
+
+'hist_QCD_Pt1000_MuEnriched.root':
+  type: mc
+  pretty-name: 'QCD'
+  cross-section: 1.078
+  group: GQCD
+  yields-group: '9QCD'
+  order: 44
+
+#######################################
+
+'fake/hist_TTToSemiLeptonic.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 366.34
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_TTTo2L2Nu.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 88.51
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_TTToHadronic.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 379.05
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_ttHTobb.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 0.2934
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_ttHToNonbb.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 0.2151
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_TTWJetsToLNu.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 0.2163
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_TTWJetsToQQ.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 0.4432
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_TTZToLLNuNu.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 0.2439
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_TTZToQQ.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 0.5113
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_ST_s_4f_lepton.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 2.23
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_ST_t_top_4f.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 134.2
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_ST_t_antitop_4f.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 80.0
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_ST_tW_top_5f.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 39.65
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_ST_tW_antitop_5f.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 39.65
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_WW.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 118.7
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_WZ.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 46.75
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_ZZ.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 16.91
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_DYJetsToLL_M10to50.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 18610
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_DYJetsToLL_M50_amc.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 6077.22
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_DYJetsToLL_M50_HT70to100.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 158.2 #140.0 * 1.13
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_DYJetsToLL_M50_HT100to200.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 157.296 #139.2 * 1.13
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_DYJetsToLL_M50_HT200to400.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 43.392 #38.4 * 1.13
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_DYJetsToLL_M50_HT400to600.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 5.847 #5.174 * 1.13
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_DYJetsToLL_M50_HT600to800.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 1.422 #1.258 * 1.13
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_DYJetsToLL_M50_HT800to1200.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 0.6326 #0.5598 * 1.13
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_DYJetsToLL_M50_HT1200to2500.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 0.1475 #0.1305 * 1.13
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_DYJetsToLL_M50_HT2500toInf.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 0.003387 #0.002997 * 1.13
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_WJetsToLNu_HT0To100.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 65396.85 # 67350.0 * 0.972
+  scale: 1.0288 # 1/0.972 for generator-event scale, anyway cancels out
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_WJetsToLNu_HT100To200.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 1568.7 # 1256.0 * 1.249
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_WJetsToLNu_HT200To400.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 419 # 335.5 * 1.249
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_WJetsToLNu_HT400To600.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 56.52 # 45.25 * 1.249
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_WJetsToLNu_HT600To800.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 15.05 # 12.05 * 1.249
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_WJetsToLNu_HT800To1200.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 6.8707 # 5.501 * 1.249
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_WJetsToLNu_HT1200To2500.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 1.4488 # 1.16 * 1.249
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_WJetsToLNu_HT2500ToInf.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 0.03247 # 0.026 * 1.249
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+#'fake/hist_QCD_Pt15To20_MuEnriched.root':
+#  type: mc
+#  pretty-name: 'Tau MisID'
+#  cross-section: 2797000.0
+#  group: GFakeTau
+#  yields-group: '9Tau MisID'
+#  order: 50
+
+'fake/hist_QCD_Pt20To30_MuEnriched.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 2518000.0
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_QCD_Pt30To50_MuEnriched.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 1361000.0
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_QCD_Pt50To80_MuEnriched.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 377800.0
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_QCD_Pt80To120_MuEnriched.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 88620.0
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_QCD_Pt120To170_MuEnriched.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 21070.0
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_QCD_Pt170To300_MuEnriched.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 7019.0
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_QCD_Pt300To470_MuEnriched.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 622.4
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_QCD_Pt470To600_MuEnriched.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 58.86
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_QCD_Pt600To800_MuEnriched.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 18.22
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_QCD_Pt800To1000_MuEnriched.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 3.25
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50
+
+'fake/hist_QCD_Pt1000_MuEnriched.root':
+  type: mc
+  pretty-name: 'Tau MisID'
+  cross-section: 1.078
+  group: GFakeTau
+  yields-group: '9Tau MisID'
+  order: 50

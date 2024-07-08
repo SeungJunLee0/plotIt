@@ -1,5 +1,5 @@
 'h_dnn_pred_S5':
-  x-axis: "DNN Score"
+  x-axis: "DNN score"
   y-axis: "Events"
   y-axis-format: "%1% / bin"
   log-y: true
